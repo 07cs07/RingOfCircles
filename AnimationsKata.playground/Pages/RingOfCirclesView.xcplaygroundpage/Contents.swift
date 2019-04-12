@@ -1,12 +1,6 @@
 import UIKit
 import PlaygroundSupport
 
-extension Date {
-   static func currentMillis() -> Double {
-        return Double(Date().timeIntervalSince1970 * 1000)
-    }
-}
-
 final class RingOfCirclesView: UIView {
     private let noOfCiricles = 12
     private let PERIOD1 = -10000.0
