@@ -24,11 +24,11 @@ final class RingOfCirclesView: UIView {
     
     override func draw(_ rect: CGRect) {
 
-        let now = Date.currentMillis()
         guard let context = UIGraphicsGetCurrentContext() else { return }
         context.saveGState()
         context.translateBy(x: self.frame.width / 2, y: self.frame.height / 2)
-        
+
+        let now = Date.currentTimeMillis()
         for i in 0...noOfCiricles {
             drawCircle(context: context, i: i, now: now, above: false)
         }

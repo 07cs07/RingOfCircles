@@ -2,5 +2,10 @@
 <Timeline
    version = "3.0">
    <TimelineItems>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/bmahalingam/Documents/workspace/personal/RingOfCircles/AnimationsKata.playground/Pages/CircleSquareView.xcplaygroundpage#CharacterRangeLen=4283&amp;CharacterRangeLoc=93&amp;EndingColumnNumber=0&amp;EndingLineNumber=120&amp;StartingColumnNumber=0&amp;StartingLineNumber=5&amp;Timestamp=576903218.037608"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
    </TimelineItems>
 </Timeline>
